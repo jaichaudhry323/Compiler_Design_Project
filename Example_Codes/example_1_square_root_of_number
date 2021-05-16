@@ -1,0 +1,34 @@
+n=1000;
+s=0;
+e=n;
+r=0;
+
+while(s<=e)
+{
+    m = (s+e)/2;
+
+    if(r==m)
+    {
+        e=0;
+        s=n;
+    }
+
+    if(m*m==n)
+    {
+        a=m;
+        e=0;
+        s=n;
+    }
+    if(m*m<n)
+    {
+        s=m;
+    }
+    else
+    {
+        e=m;
+    }
+    r=m;
+}
+
+
+print m;

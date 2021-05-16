@@ -1,0 +1,15 @@
+a = 1;
+b = 1;
+
+print a;
+
+i=1;
+while(i<20)
+{
+    i++;
+    c = b;
+    b = a + b;
+    a = c;
+    print a;
+}
+

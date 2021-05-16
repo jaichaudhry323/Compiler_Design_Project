@@ -1,0 +1,17 @@
+{
+  "name": "basic-calculator-lex-yacc-master",
+  "version": "1.0.0",
+  "description": "Basic calculator compiler using Lex and Yacc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm server.js"
+  },
+  "author": "Daniyal",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "0.0.1-security"
+  }
+}
