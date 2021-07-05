@@ -2,7 +2,7 @@
 
 ![Working](./fast-slow-1621194130341.gif)
 
-*RUN THESE COMMANDS IN ORDER*<br>
+*RUN THESE COMMANDS IN ORDER in Mini_Compiler Folder*<br>
 ====================================================================================================<br>
 ################--------TO PRINT CODE OUTPUT---------################<br>
 yacc -y -d cal.y<br>
